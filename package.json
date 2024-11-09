@@ -1,0 +1,15 @@
+{
+	"name": "les-koding",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "vickymahardyka || vickymahardyka76@gmail.com",
+	"license": "MIT",
+	"scripts": {
+		"tsc": "rm -rf build/ && tsc",
+		"ts": "rm -rf build/ && tsc -w",
+		"dev": "nodemon ./build/module/Product.js"
+	},
+	"devDependencies": {
+		"typescript": "^5.6.3"
+	}
+}
